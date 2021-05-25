@@ -158,7 +158,7 @@
                     "tiff",
                     "ttf"
                 ],
-                "hide_specific":false,
+                "hide_specific":true,
                 "show_items":[
                     "asp",
                     "aspx",
