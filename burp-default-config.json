@@ -55,6 +55,7 @@
             }
         },
         "misc":{
+            "enable_proxy_interception_at_startup":"never",
             "collaborator_server":{
                 "location":"",
                 "poll_over_unencrypted_http":false,
@@ -375,20 +376,14 @@
             "suppress_burp_error_messages_in_browser":false,
             "unpack_gzip_deflate_in_requests":false,
             "unpack_gzip_deflate_in_responses":true,
-            "use_http_10_in_requests_to_server":false,
-            "use_http_10_in_responses_to_client":false
+            "use_http_10_in_requests_to_server":true,
+            "use_http_10_in_responses_to_client":true
         },
         "request_listeners":[
             {
                 "certificate_mode":"per_host",
                 "listen_mode":"loopback_only",
                 "listener_port":8080,
-                "running":true
-            },
-            {
-                "certificate_mode":"per_host",
-                "listen_mode":"loopback_only",
-                "listener_port":8090,
                 "running":true
             }
         ],
